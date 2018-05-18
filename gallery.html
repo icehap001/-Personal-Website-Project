@@ -1,12 +1,18 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>K.Paramed Site</title>
         <link rel="stylesheet" href="./css/gallery.css">
         <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
     </head>
     <body>
         <header>The Random Gallery</header>
+        <nav class="mainMenu">
+                <li><a href="./index.html"><img src="./img/homelogo.png" alt="home" class="iconMenu"><div class="textMenu">Home</div></a></li>
+                <li><a href="./gallery.html"><img src="./img/GalLogo.png" alt="Gallery" class="iconMenu"><div class="textMenu">Gallery</div></a></li>
+                <li><a href="./self.html"><img src="./img/melogo.png" alt="Me" class="iconMenu"><div class="textMenu">Me</div></a></li>
+        </nav>
         <main>
                 <div class="container">
 
@@ -78,7 +84,7 @@
                         <!-- Thumbnail images -->
                         <div class="row">
                           <div class="column">
-                            <img class="demo cursor" src="./img/G01.jpg" style="width:100%" onclick="currentSlide(1)" alt="สะพานข้ามแม่น้ำแคว">
+                            <img class="demo cursor" src="./img/G01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Bridge of the River Kwai">
                           </div>
                           <div class="column"> 
                             <img class="demo cursor" src="./img/G02.jpg" style="width:100%" onclick="currentSlide(2)" alt="Electronic">
@@ -115,5 +121,8 @@
                 </div>
             <script src="./javascript/gallery.js"></script>
         </main>
+        <footer>
+                <p>&copy;Paramed Khumthong</p>
+        </footer>
     </body>
 </html>
