@@ -64,6 +64,7 @@ section {
     border: solid #d1d1d1;
     padding: 0.22em 0.88em;
     box-shadow: 8px 8px 2px #e7e7e7;
+    margin: 5px;
 }
 
 footer{
