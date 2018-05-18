@@ -10,8 +10,8 @@
 }
 /*Default*/
 img, video{
-    
-    max-width: 100%;
+    max-width: 400px;
+    max-width: 100%;    
 }
 body {
     font-family: 'Itim', cursive;
@@ -21,18 +21,22 @@ body {
 }
 header {
     color: var(--header-color);
+    font-size: 100px; 
+    margin: 100px;
 }
 main {
     display: grid;
     margin-left: 3em;
     margin-right: 3em;
+    margin-bottom: 10em;
 }
 section {
     border: solid #d1d1d1;
     padding: 0.22em 0.88em;
     box-shadow: 8px 8px 2px #e7e7e7;
+    font-size: 50px;
 }
-section:hover {
+.sechover:hover {
     border: solid blue;
     background:lightblue;
 }
@@ -40,7 +44,7 @@ section:hover {
     color: var(--header-color);
 }
 
-#picture{
+#gallery{
     grid-area: pic;
 }
 #me{
@@ -51,7 +55,7 @@ section:hover {
 }
 footer{
     display: grid;
-    background: rgb(99,99,99);
+    background: rgb(150,200,200);
     min-height: 41px;
     margin-top: 1.5em;
     padding-bottom: 0.2em;
